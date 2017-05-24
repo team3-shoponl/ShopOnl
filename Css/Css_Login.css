@@ -1,0 +1,20 @@
+h1 {color: red  ;
+    font-family: serif  ;
+    font-size: medium  ;
+    font-style: italic;
+    background-color: yellow;
+}
+h2,h3{
+    color: yellow;
+    background-color: darkorchid;
+    border;1px;
+    border-color: blue;
+}
+p{
+    font-family: fantasy;
+    text-align: center;
+}
+body
+{
+    background-color: aqua;
+}
