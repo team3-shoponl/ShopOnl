@@ -30,10 +30,13 @@ body{
 a {
     color: black;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 a:hover{
     color: limegreen;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 .col-md-4{
@@ -71,4 +74,8 @@ a:hover{
     margin-right: -15px;
     margin-left: -15px;
     background-color: #292929;
+}
+
+.dropdown{
+    border: 0;
 }
