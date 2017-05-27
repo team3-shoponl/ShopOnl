@@ -3,7 +3,7 @@ body{
 }
 
 .navbar{
-    padding: 1%;
+    padding: 8px;
     background-color: white;
     border: 0px;
     border-bottom: 1px dotted darkgrey;
@@ -38,6 +38,11 @@ a:hover{
     text-decoration: none;
     font-weight: bolder;
 }
+
+a:active {
+    color: limegreen;
+}
+
 
 .col-md-4{
     clear: right;
@@ -79,3 +84,10 @@ a:hover{
 .dropdown{
     border: 0;
 }
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: limegreen;
+}
+
+
