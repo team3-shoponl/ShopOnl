@@ -5,7 +5,7 @@ body{
 .navbar{
     padding: 8px;
     background-color: white;
-    border: 0px;
+    border: 0;
     border-bottom: 1px dotted darkgrey;
     margin: 0;
     font-weight: bolder;
