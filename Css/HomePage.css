@@ -1,0 +1,93 @@
+body{
+    font-size: 16px;
+}
+
+.navbar{
+    padding: 8px;
+    background-color: white;
+    border: 0;
+    border-bottom: 1px dotted darkgrey;
+    margin: 0;
+    font-weight: bolder;
+}
+
+
+.navbar-inverse .navbar-brand {
+    color: #444343;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #444343;
+}
+
+.breadcrumb{
+    background-color: white;
+    text-align: right;
+    margin: 0;
+    border-bottom: 1px dotted darkgrey;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: limegreen;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:active {
+    color: limegreen;
+}
+
+
+.col-md-4{
+    clear: right;
+}
+
+.ct2{
+    margin-top: 3%;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+
+.jumbotron{
+    background-color: white;
+}
+
+.footer{
+    clear: both;
+    background-color: #292929;
+    color: white;
+}
+
+.cl{
+    text-align: center;
+    padding: 1%;
+}
+
+.cr{
+    text-align: left;
+    padding: 1%;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: #292929;
+}
+
+.dropdown{
+    border: 0;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: limegreen;
+}
+
+

@@ -2,39 +2,188 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Homepage</title>
+    <title>Trang web bán hàng lớn...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Css/HomePage.css">
+
 </head>
 <body>
-<table width="100%" border="1px" style="border-collapse: collapse; "  >
-    <tr>
-        <th colspan="2">1</th>
-        <th>3</th>
-        <th>4</th>
-    </tr>
-    <tr>
-        <td rowspan="2" style="text-align: center">Maos</td>
-        <td>6</td>
-        <td>7</td>
-        <td>8</td>
-    </tr>
-    <tr>
+                    <!-- Header-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <ul class="breadcrumb">
+                        <li><a href="#">Sign in</a></li>
+                        <li><a href="#">Sign up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+                    <!-- Menu -->
+    <div class="container-fluid">
+        <div class="row"></div>
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="HomePage.html" ><img src="image/name.png" height="55" width="339"/></a>
+                    </div>
+                    <div class="collapse navbar-collapse nav navbar-nav navbar-right" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Sell</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li class="dropdown">
+                                <a data-toggle="dropdown" href="">Product Catalog<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="DoGiaDung-ProductsPage.html">Đồ gia dụng</a></li>
+                                    <li><a href="DoDienTu-ProductsPage.html">Đồ điện tử</a></li>
+                                    <li><a href="DoVanPhong-ProductsPage.html">Đồ văn phòng</a></li>
+                                    <li><a href="LamDep-ProductsPage.html">Làm đẹp</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </div>
+                    <!-- banner -->
+    <div class="container-fluid">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>-->
 
-        <td>10</td>
-        <td>11</td>
-        <td>12</td>
-    </tr>
-    <tr>
-        <td>13</td>
-        <td>14</td>
-        <td>15</td>
-        <td>16</td>
-    </tr>
-    <tr>
-        <td style="vertical-align: middle;text-align: center">17</td>
-        <td>18</td>
-        <td>19</td>
-        <td>20</td>
-    </tr>
-</table>
+                    <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <img src="image/cho1.jpg" alt="spdd" style="width:1200px;height: 450px">
+                    <div class="carousel-caption">
+                        <h1 style="text-align: right">Sản phẩm đa dạng</h1>
+                        <p style="text-align: right">Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió
+                            Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió
+                            Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="image/cho2.jpg" alt="ddgd" style="width:1200px;height: 450px">
+                    <div class="carousel-caption">
+                        <h1 style="text-align: right">Dễ dàng giao dịch</h1>
+                        <p style="text-align: right">Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió
+                            Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió
+                            Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="image/cho3.jpg" alt="at" style="width:1200px;height: 400px">
+                    <div class="carousel-caption">
+                        <h1 style="text-align: right">An toàn trong mua bán</h1>
+                        <p style="text-align: right">Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió
+                            Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió
+                            Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió Chém gió </p>
+                    </div>
+                </div>
+
+            </div>
+
+                        <!-- Left and right controls
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>-->
+    </div>
+                    <!-- register -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Đăng kí ngay!</h1>
+            <p>Tất cả đều miễn phí và an toàn! </p>
+
+            <div class="container">
+                    <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Register Here!</button>
+
+                    <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title"></h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                <div class="container-fluid">
+                                    <div>
+                                        <form action="/action_page.php">
+                                            <div class="form-group" style="text-align: center">
+                                               <img src="logo.png" width="20%"><hr>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email">Email:</label>
+                                                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="pwd">Password:</label>
+                                                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                                            </div>
+                                            <div class="checkbox">
+                                                <label><input type="checkbox" name="remember"> Remember me</label>
+                                            </div>
+                                            <button type="submit" class="btn btn-success">Submit</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+                    <!-- footer -->
+    <div class="container-fuild">
+        <div class="row">
+            <div class="footer" style="background-color: #292929">
+                <div class="col-md-7 cl">Facebook | Youtube | Google+</div>
+                <div class="col-md-5 cr">
+                    Contact:<br>
+                        Phone: 0935-xxx-xxx<br>
+                        Email: xxxxxxxx@gmail.com<br>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
