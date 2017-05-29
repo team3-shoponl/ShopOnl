@@ -3,9 +3,9 @@ body{
 }
 
 .navbar{
-    padding: 1%;
+    padding: 8px;
     background-color: white;
-    border: 0px;
+    border: 0;
     border-bottom: 1px dotted darkgrey;
     margin: 0;
     font-weight: bolder;
@@ -30,11 +30,19 @@ body{
 a {
     color: black;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 a:hover{
     color: limegreen;
+    text-decoration: none;
+    font-weight: bolder;
 }
+
+a:active {
+    color: limegreen;
+}
+
 
 .col-md-4{
     clear: right;
@@ -72,3 +80,14 @@ a:hover{
     margin-left: -15px;
     background-color: #292929;
 }
+
+.dropdown{
+    border: 0;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: limegreen;
+}
+
+
