@@ -28,33 +28,38 @@ body{
     color: #444343;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-    color: #444343;
+.nav .navbar-nav>li>a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
 }
-
+.navbar .navbar-nav>li>a:hover{
+    color: limegreen;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.nav .navbar-nav>li>a:active {
+    color: limegreen;
+}
 .breadcrumb{
     background-color: white;
     text-align: right;
     margin: 0;
     border-bottom: 1px dotted darkgrey;
 }
-
-a {
+.breadcrumb>li>a {
     color: black;
     text-decoration: none;
     font-weight: bolder;
 }
-
-a:hover{
+.breadcrumb>li>a:hover{
     color: limegreen;
     text-decoration: none;
     font-weight: bolder;
 }
-
-a:active {
+.breadcrumb>li>a:active {
     color: limegreen;
 }
-
 
 .col-md-4{
     clear: right;
@@ -69,12 +74,6 @@ a:active {
 
 .jumbotron{
     background-color: white;
-}
-
-.footer{
-    clear: both;
-    background-color: #292929;
-    color: white;
 }
 
 .cl{
@@ -97,9 +96,23 @@ a:active {
     border: 0;
 }
 
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    color: #fff;
-    background-color: limegreen;
+.footer{
+    clear: both;
+    background-color: #292929;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    color: limegreen;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:active {
+    color: limegreen;
 }
 
 

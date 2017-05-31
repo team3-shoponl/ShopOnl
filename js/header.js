@@ -27,7 +27,7 @@ document.write('\
                     </div>\
                     <div class="collapse navbar-collapse nav navbar-nav navbar-right" id="myNavbar">\
                         <ul class="nav navbar-nav">\
-                            <li><a href="#">Home</a></li>\
+                            <li><a href="HomePage.html">Home</a></li>\
                             <li><a href="#">Sell</a></li>\
                             <li><a href="#">About Us</a></li>\
                             <li><a href="#">Contact Us</a></li>\
