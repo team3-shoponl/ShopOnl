@@ -10,7 +10,19 @@ body{
     margin: 0;
     font-weight: bolder;
 }
+.affix {
+            top: 0;
+            margin-left: -30px;
+            width: 100%;
+        }
 
+        .affix + .container-fluid {
+            padding-top: 70px;
+        }
+        .affix {
+            position: fixed;
+            z-index: 999;
+        }
 
 .navbar-inverse .navbar-brand {
     color: #444343;
