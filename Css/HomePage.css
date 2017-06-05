@@ -122,6 +122,11 @@ a:active {
     background-color: white;
 }
 
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: white;
+}
+
 /* Dropdown Button */
 .dropbtn {
     background-color: #4CAF50;
@@ -144,7 +149,7 @@ a:active {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
 }
 
@@ -169,7 +174,53 @@ a:active {
     background-color: #3e8e41;
 }
 
-.pc{
-    border: 1px solid red;
+/* search */
 
+input[type=text]{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("../image/searchicon.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus{
+    width: 100%;
+}
+
+#pc1{
+    width: 55%;
+    clear: right;
+    border: 1px solid red;
+}
+
+#pc2{
+    width: 40%;
+    clear: right;
+    border: 1px solid red;
+}
+
+#pc3{
+    width: 30%;
+    clear: right;
+    border: 1px solid red;
+}
+
+#pc4{
+    width: 30%;
+    clear: right;
+    border: 1px solid red;
+}
+
+#pc5{
+    width: 30%;
+    clear: right;
+    border: 1px solid red;
 }
