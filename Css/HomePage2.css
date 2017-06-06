@@ -1,0 +1,276 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+html, body
+{
+    margin: 0;
+}
+
+div.container
+{
+    margin: 0 auto;
+    text-align: right;
+    padding-top: 15px;
+}
+
+div.container a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 130% Raleway;
+    margin: 0 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+
+}
+
+/* Highlight text out  */
+div.highlightTextOut a
+{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+div.highlightTextOut a:before, div.highlightTextIn a:before
+{
+    position: absolute;
+    color: #FFF;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    overflow: hidden;
+    content: attr(alt);
+    transition: all 0.3s;
+    transform: scale(0.8);
+    opacity: 0;
+}
+
+div.highlightTextOut a:hover:before, div.highlightTextIn a:hover:before {
+    transform: scale(1);
+    opacity: 1;
+    color: limegreen;
+}
+
+.navbar{
+    border: 0;
+    color: limegreen;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+/* Banner */
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.banner {
+    position: relative;
+    background-color: #23B5AF;
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.banner .text {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.diamond {
+    position: absolute;
+    background-color: rgba(0,0,0,.1);
+    width: 60%;
+    height: 200px;
+    right: 0;
+    -moz-transition: width 2s;
+    -o-transition: width 2s;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+.diamond:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: -100px;
+    border-right: 100px solid rgba(0,0,0,.1);
+    border-bottom: 100px solid rgba(0,0,0,0);
+}
+
+.diamond div:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    left: -100px;
+    border-right: 100px solid rgba(0,0,0,.1);
+    border-top: 100px solid rgba(0,0,0,0);
+}
+
+.banner:hover .diamond {
+    width: 25%;
+}
+
+.footer{
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: black;
+    border: 1px solid orange;
+    clear: both;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+/* Header */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
+html,body{
+    margin:0;
+    height:120%;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.header{
+    position:relative;
+    overflow:hidden;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    height:50vw;
+    min-height:400px;
+    max-height:550px;
+    min-width:300px;
+    color:#eee;
+}
+.header:after{
+    content:"";
+    width:100%;
+    height:40%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:-1;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(27,32,48,1) 100%);
+}
+.header:before{
+    content:"";
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0);
+    background:#1B2030 url(../image/banner.png) top center no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    animation: grow 60s  linear 10ms infinite;
+    transition:all 0.2s ease-in-out;
+    z-index:-2
+}
+.header a{
+    color:#eee
+}
+/*.menu{*/
+    /*display:block;*/
+    /*width:30px;*/
+    /*height:30px;*/
+    /*border:2px solid #fff;*/
+    /*border-radius:3px;*/
+    /*position:absolute;*/
+    /*right:20px;*/
+    /*top:20px;*/
+    /*text-decoration:none*/
+/*}*/
+/*.menu:after{*/
+    /*content:"";*/
+    /*display:block;*/
+    /*width:20px;*/
+    /*height:3px;*/
+    /*background:#fff;*/
+    /*position:absolute;*/
+    /*margin:0 auto;*/
+    /*top:5px;*/
+    /*left:0;*/
+    /*right:0;*/
+/*}*/
+.logo{
+    border:2px solid #fff;
+    border-radius:3px;
+    text-decoration:none;
+    display:inline-block;
+    margin:20px;
+    padding:5px 10px;
+    font-weight:600;
+    font-size:1.2em;
+    box-sizing:border-box
+}
+.sides, .info{
+    flex: 0 0 auto;
+    width:50%
+}
+.info{
+    width:100%;
+    padding:15% 10% 0 10%;
+    text-align:center;
+    text-shadow:0 2px 3px rgba(0,0,0,0.2)
+}
+.author{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:url(http://favim.com/media/uploads/images/610/140308/black-n-white-cute-funny-iron-man-Favim.com-1462744.jpg) center no-repeat;
+    background-size:cover;
+    box-shadow:0 2px 3px rgba(0,0,0,0.3);
+    margin-bottom:3px
+}
+.info h4, .meta{
+    font-size:0.7em
+}
+.meta{
+    font-style:italic;
+}
+@keyframes grow{
+    0% { transform:scale(1)}
+    50% { transform:scale(1.2)}
+}
+.content{
+    padding:5% 10%;
+    text-align:justify
+}
+.btn{
+    color:#333;
+    border:2px solid;
+    border-radius:3px;
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+    font-weight:600
+}
+
+.twtr{
+    margin-top:100px
+}
