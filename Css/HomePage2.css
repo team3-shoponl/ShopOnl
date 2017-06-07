@@ -18,7 +18,7 @@ div.container a
     color: black;
     text-decoration: none;
     font-weight: bold;
-    font: 130% Raleway;
+    font-size: 17px;
     margin: 0 10px;
     padding: 10px 10px;
     position: relative;
@@ -153,18 +153,23 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #eeeeee;
-
 }
+
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+    color: limegreen;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: white;
+.dropbtn:hover {
+    background-color: #e0e0e0;
 }
+.dropbtn a:hover{
+    color: limegreen;
+}
+
 
 /* Banner */
 
@@ -322,7 +327,7 @@ html,body{
     /*right:0;*/
 /*}*/
 .logo{
-    border:2px solid #fff;
+    border:2px solid limegreen;
     border-radius:3px;
     text-decoration:none;
     display:inline-block;
