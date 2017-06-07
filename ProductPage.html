@@ -4,68 +4,84 @@
     <meta charset="UTF-8">
     <title>Trang sản phẩm</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
     <script src="jquery/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/HomePage.css">
+    <link rel="stylesheet" href="Css/HomePage2.css">
+    <script src="js/HomePage2.js"></script>
 </head>
 <body>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="row">
-                <ul class="breadcrumb">
-                    <li><a href="#">Sign in</a></li>
-                    <li><a href="#">Sign up</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Menu -->
-<div class="container-fluid">
-    <div class="row"></div>
-    <nav class="navbar">
-        <div class="container-fluid">
+<div class="container-fluid nav">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid navbar-default">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="HomePage.html" ><img src="../ShopOnl/image/name.png"></a>
+                <a class="navbar-brand" href="#">Logo</a>
             </div>
-            <div class="collapse navbar-collapse nav navbar-nav navbar-right" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sell</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li class="dropdown">
-                        <a data-toggle="dropdown" href="">Product Catalog<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="DoGiaDung-ProductsPage.html">Đồ gia dụng</a></li>
-                            <li><a href="DoDienTu-ProductsPage.html">Đồ điện tử</a></li>
-                            <li><a href="DoVanPhong-ProductsPage.html">Đồ văn phòng</a></li>
-                            <li><a href="LamDep-ProductsPage.html">Làm đẹp</a></li>
-                        </ul>
-                    </li>
-                </ul>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="container teal borderYtoX">
+                    <a alt="HOME">HOME</a>
+                    <a alt="PRODUCTS">
+                        <div class="dropdown">
+                            <button class="dropbtn">PRODUCTS</button>
+                            <div class="dropdown-content">
+                                <a href="#">Đồ Văn Phòng</a>
+                                <a href="#">Đồ Gia Dụng</a>
+                                <a href="#">Đồ Thể Thao</a>
+                                <a href="#">Đồ Điện Tử</a>
+                                <a href="#">Làm Đẹp</a>
+                            </div>
+                        </div>
+                    </a>
+                    <a alt="SELL">SELL</a>
+                    <a alt="ABOUT">ABOUT</a>
+                    <a alt="CONTACT">CONTACT</a>
+                </div>
             </div>
         </div>
     </nav>
 </div>
-                <!-- danh sách sản phẩm -->
-<div class="container-fluid">
-    <div class="col-md-1 adv"></div>
-    <div class="col-md-10">
-        <div id="pc1"><a href="DoVanPhong-ProductsPage.html"><img src="image/dovanphong.jpg" style="height: 200px;width: 500px"></a></div>
-        <div id="pc2"><a href="DoDienTu-ProductsPage.html"><img src="image/dodientu.jpg" style="height: 200px; width: 200px"></a></div>
-        <div id="pc3"><a href="LamDep-ProductsPage.html"><img src="image/lamdep.jpg" style="height: 300px; width: 300px"></a></div>
-        <div id="pc4"><a href="DoGiaDung-ProductsPage.html"><img src="image/dogiadung.jpg" style="height: 300px; width: 300px"></a></div>
-        <div id="pc5"><a href="DoGiaDung-ProductsPage.html"><img src="image/dothethao.jpg" style="height: 300px; width: 300px"></a></div>
-    </div>
-    <div class="col-md-1 adv"></div>
+
+<!-- Side Nav-->
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">*Mặt hàng*
+        <ul>
+            <li><a>...</a></li>
+            <li><a>...</a></li>
+            <li><a>...</a></li>
+        </ul>
+    </a>
+    <a href="#">*Mặt hàng*
+        <ul>
+            <li><a>...</a></li>
+            <li><a>...</a></li>
+            <li><a>...</a></li>
+        </ul>
+    </a>
+    <a href="#">*Mặt hàng*
+        <ul>
+            <li><a>...</a></li>
+            <li><a>...</a></li>
+            <li><a>...</a></li>
+        </ul>
+    </a>
+    <a href="#">*Mặt hàng*
+        <ul>
+            <li><a>...</a></li>
+            <li><a>...</a></li>
+            <li><a>...</a></li>
+        </ul>
+    </a>
 </div>
+<span style="font-size:30px;cursor:pointer; color: limegreen" onclick="openNav()">&#9776; Các loại mặt hàng</span>
+
+<!-- Search -->
+
+
 </body>
 </html>
