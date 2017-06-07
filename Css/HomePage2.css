@@ -14,8 +14,9 @@ div.container
 
 div.container a
 {
-    color: limegreen;
+    color: black;
     text-decoration: none;
+    font-weight: bold;
     font: 130% Raleway;
     margin: 0 10px;
     padding: 10px 10px;
@@ -55,8 +56,14 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
     height: 2px;
     width: 100%;
 }
-
-
+.navbar-inverse .navbar-toggle {
+    background-color:#23b5af;
+    border-color: #23b5af;
+}
+.navbar-default {
+    background-color: #ffffff;
+    border-bottom: 2px solid #1E88E5;
+}
 .navbar{
     border: 0;
     color: limegreen;
@@ -77,19 +84,59 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
     cursor: pointer;
 }
 
+.affix {
+    top: -10px;
+    margin-left: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+.affix {
+    position: fixed;
+    z-index: 999;
+}
+
+.nav .navbar-nav>li>a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar .navbar-nav>li>a:hover{
+    background-color: #eeeeee;
+    color: limegreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav .navbar-nav>li>a:active {
+    color: limegreen;
+}
+
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
 }
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: limegreen;
+    background-color: #eeeeee;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: limegreen;
+    text-decoration: none;
+    background-color: #f5f5f5;}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: limegreen;
 
+}
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
 }
 

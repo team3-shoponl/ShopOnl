@@ -40,39 +40,40 @@
         <!--</div>-->
     <!--</div>-->
 
-    <div class="container-fluid nav">
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid navbar-default">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Logo</a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <div class="container teal borderYtoX">
-                        <a alt="HOME">HOME</a>
-                        <a alt="PRODUCTS">
-                            <div class="dropdown">
-                                <button class="dropbtn">PRODUCTS</button>
-                                <div class="dropdown-content">
-                                    <a href="#">Đồ Văn Phòng</a>
-                                    <a href="#">Đồ Gia Dụng</a>
-                                    <a href="#">Đồ Thể Thao</a>
-                                    <a href="#">Đồ Điện Tử</a>
-                                    <a href="#">Làm Đẹp</a>
-                                </div>
-                            </div>
-                        </a>
-                        <a alt="SELL">SELL</a>
-                        <a alt="ABOUT">ABOUT</a>
-                        <a alt="CONTACT">CONTACT</a>
+    <div class="container-fluid menu">
+        <div class="row">
+            <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="560">
+                <div class="container-fluid navbar-default">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Logo</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <div class="container teal borderYtoX collapse navbar-collapse nav navbar-nav navbar-right">
+                            <ul class="nav navbar-nav">
+                                <li><a alt="HOME">HOME</a></li>
+                                <li><a alt="SELL">SELL</a></li>
+                                <li><a alt="ABOUT">ABOUT</a></li>
+                                <li><a alt="CONTACT">CONTACT</a></li>
+                                <li class="dropdown">
+                                    <a data-toggle="dropdown" href="">Product Catalog<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Đồ Văn Phòng</a></li>
+                                        <li><a href="#">Đồ Gia Dụng</a></li>
+                                        <li><a href="#">Đồ Thể Thao</a></li>
+                                        <li><a href="#">Đồ Điện Tử</a></li>
+                                        <li><a href="#">Làm Đẹp</a></li>
+                                    </ul>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </div>
 
     <!-- Banner -->
@@ -84,29 +85,35 @@
     </div>
     <!-- Content -->
     <div class="container">
-        <div class="hover01 column">
-            <div>
-                <figure class="danhmuc"><img src="image/dothethao.jpg" style="height: 200px; width: 300px" /></figure>
-                <span>Đồ Thể Thao</span>
+        <div class="row">
+            <div class="hover01 column ">
+                <div class="col-md"
+                    <figure class="danhmuc"><img src="image/dothethao.jpg" style="height: 200px; width: 300px" /></figure>
+                    <span>Đồ Thể Thao</span>
+                </div>
+                <div>
+                    <figure class="danhmuc"><img src="image/dodientu.jpg" style="height: 200px; width: 300px" /></figure>
+                    <span>Đồ Điện tử</span>
+                </div>
+                <div>
+                    <figure class="danhmuc"><img src="image/lamdep.jpg" style="height: 200px; width: 300px" /></figure>
+                    <span>Làm đẹp</span>
+                </div>
             </div>
-            <div>
-                <figure class="danhmuc"><img src="image/dodientu.jpg" style="height: 200px; width: 300px" /></figure>
-                <span>Đồ Điện tử</span>
-            </div>
-            <div>
-                <figure class="danhmuc"><img src="image/lamdep.jpg" style="height: 200px; width: 300px" /></figure>
-                <span>Làm đẹp</span>
-            </div>
-        </div>
 
-        <div class="hover01 column">
-            <div>
-                <figure class="danhmuc"><img src="image/dogiadung.jpg" style="height: 200px; width: 300px" /></figure>
-                <span>Đồ Gia Dụng</span>
-            </div>
-            <div>
-                <figure class="danhmuc"><img src="image/dovanphong.jpg" style="height: 200px; width: 300px" /></figure>
-                <span>Đồ Văn Phòng</span>
+            <div class="hover01 column">
+                <div>
+                    <figure class="danhmuc"><img src="image/dogiadung.jpg" style="height: 200px; width: 300px" /></figure>
+                    <span>Đồ Gia Dụng</span>
+                </div>
+                <div>
+                    <figure class="danhmuc"><img src="image/dovanphong.jpg" style="height: 200px; width: 300px" /></figure>
+                    <span>Đồ Văn Phòng</span>
+                </div>
+                <div>
+                    <figure class="danhmuc"><img src="image/noithat.jpg" style="height: 200px; width: 300px" /></figure>
+                    <span>Nội Thất</span>
+                </div>
             </div>
         </div>
     </div>
