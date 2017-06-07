@@ -18,8 +18,8 @@
       <file leaf-file-name="HomePage2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HomePage2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="87" column="16" lean-forward="true" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+            <state relative-caret-position="160">
+              <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#figure#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#figure#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -35,12 +35,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage2.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Css/HomePage2.css">
+      <file leaf-file-name="HomePage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HomePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-855">
-              <caret line="334" column="17" lean-forward="false" selection-start-line="334" selection-start-column="17" selection-end-line="334" selection-end-column="17" />
+            <state relative-caret-position="136">
+              <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="40" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProductPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding>
+                <element signature="e#2087#2094#1" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,8 +61,18 @@
       <file leaf-file-name="HomePage2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/HomePage2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Css/HomePage2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="472" column="12" lean-forward="true" selection-start-line="472" selection-start-column="12" selection-end-line="472" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -83,14 +106,14 @@
       <list>
         <option value="$PROJECT_DIR$/Css/DoGiaDung-ProductsPage.css" />
         <option value="$PROJECT_DIR$/DoGiaDung-ProductsPage.html" />
-        <option value="$PROJECT_DIR$/ProductPage.html" />
         <option value="$PROJECT_DIR$/HomePage.html" />
         <option value="$PROJECT_DIR$/js/header.js" />
         <option value="$PROJECT_DIR$/Css/HomePage.css" />
-        <option value="$PROJECT_DIR$/js/HomePage2.js" />
         <option value="$PROJECT_DIR$/Sualoi.html" />
-        <option value="$PROJECT_DIR$/Css/HomePage2.css" />
         <option value="$PROJECT_DIR$/HomePage2.html" />
+        <option value="$PROJECT_DIR$/js/HomePage2.js" />
+        <option value="$PROJECT_DIR$/Css/HomePage2.css" />
+        <option value="$PROJECT_DIR$/ProductPage.html" />
       </list>
     </option>
   </component>
@@ -144,34 +167,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShopOnl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShopOnl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShopOnl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShopOnl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -287,16 +282,15 @@
       <workItem from="1496660820553" duration="983000" />
       <workItem from="1496733307645" duration="12969000" />
       <workItem from="1496802197556" duration="3694000" />
-      <workItem from="1496817890238" duration="2123000" />
+      <workItem from="1496817890238" duration="6210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25502000" />
+    <option name="totallyTimeSpent" value="29589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24743778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -543,13 +537,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/searchicon.png" />
-    <entry file="file://$PROJECT_DIR$/ProductPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -592,21 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/HomePage2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-862">
-          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -615,18 +587,45 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sualoi.html" />
+    <entry file="file://$PROJECT_DIR$/js/HomePage2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Css/HomePage2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-855">
-          <caret line="334" column="17" lean-forward="false" selection-start-line="334" selection-start-column="17" selection-end-line="334" selection-end-column="17" />
+        <state relative-caret-position="447">
+          <caret line="472" column="12" lean-forward="true" selection-start-line="472" selection-start-column="12" selection-end-line="472" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <element signature="e#2087#2094#1" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomePage2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="87" column="16" lean-forward="true" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+        <state relative-caret-position="160">
+          <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#img#0;n#figure#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#figure#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
