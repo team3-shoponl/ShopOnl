@@ -63,7 +63,7 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 }
 .navbar-default {
     background-color: #ffffff;
-    border-bottom: 2px solid #1E88E5;
+    border-bottom: 2px solid green;
 }
 .navbar{
     border: 0;
@@ -77,12 +77,13 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 /* Nav Dropdown*/
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
+    background-color: white;
+    color: black;
+    padding: 7px 10px;
+    font-size: 15px ;
     border: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .affix {
@@ -150,7 +151,10 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    background-color: #eeeeee;
+
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -159,7 +163,7 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: white;
 }
 
 /* Banner */
