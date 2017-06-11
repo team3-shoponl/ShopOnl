@@ -2,8 +2,8 @@
  * Created by My PC on 06/06/2017.
  */
 
-/* SideBar */
-
-
-/* Search */
+/* Login */
+$('.message a').click(function(){
+    $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});
 

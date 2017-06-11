@@ -16,7 +16,7 @@
     <!-- Header -->
     <div class="header">
         <div class="sides">
-            <a href="#" class="logo" style="color: limegreen;">LOGIN</a>
+            <a href="#" class="logo" style="color: limegreen;"><button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">LOGIN</button></a>
         </div>
         <div class="sides"> <a href="#" class="menu"></a>
         </div>
@@ -80,6 +80,44 @@
         </div>
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content" style="color: black">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Đăng nhập</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="login-page">
+                        <div class="form">
+                            <form class="register-form">
+                                <input type="text" placeholder="name"/>
+                                <input type="password" placeholder="password"/>
+                                <input type="text" placeholder="email address"/>
+                                <button>create</button>
+                                <p class="message">Already registered? <a href="#">Sign In</a></p>
+                            </form>
+                            <form class="login-form">
+                                <input type="text" placeholder="username"/>
+                                <input type="password" placeholder="password"/>
+                                <button>login</button>
+                                <p class="message">Not registered? <a href="#">Create an account</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
     <!-- Banner -->
     <div class="banner">
         <div class="diamond">
