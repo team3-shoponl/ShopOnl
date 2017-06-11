@@ -80,7 +80,11 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
     background-color: white;
     color: black;
     padding: 7px 10px;
+<<<<<<< HEAD
+    font-size: 16px;
+=======
     font-size: 15px ;
+>>>>>>> f80a9051dd08159433ebac1151a56a2421d9d502
     border: none;
     cursor: pointer;
     font-weight: bold;
@@ -163,11 +167,16 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
+<<<<<<< HEAD
+.dropdown:hover .dropbtn {
+    background-color: #white;
+=======
 .dropbtn:hover {
     background-color: #e0e0e0;
 }
 .dropbtn a:hover{
     color: limegreen;
+>>>>>>> f80a9051dd08159433ebac1151a56a2421d9d502
 }
 
 
@@ -327,7 +336,7 @@ html,body{
     /*right:0;*/
 /*}*/
 .logo{
-    border:2px solid limegreen;
+    /*border:2px solid limegreen;*/
     border-radius:3px;
     text-decoration:none;
     display:inline-block;
@@ -487,44 +496,137 @@ figure:hover+span {
 
 /* Side Nav*/
 
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+/* Search */
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
     background-color: white;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+    background-image: url('../image/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
 }
 
-.sidenav a {
-    padding: 8px 8px 8px 32px;
+input[type=text]:focus {
+    width: 100%;
+}
+
+/* Login */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
+}
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a {
+    color: #4CAF50;
     text-decoration: none;
-    font-size: 25px;
-    color: limegreen;
+}
+.form .register-form {
+    display: none;
+}
+.login-page {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.login-page:before, .container:after {
+    content: "";
     display: block;
-    transition: 0.3s;
+    clear: both;
 }
-
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+.login-page .info {
+    margin: 50px auto;
+    text-align: center;
 }
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
+.login-page .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
     font-size: 36px;
-    margin-left: 50px;
+    font-weight: 300;
+    color: #1a1a1a;
 }
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+.login-page .info span {
+    color: #4d4d4d;
+    font-size: 12px;
 }
+.login-page .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+.login-page .info span .fa {
+    color: #EF3B3A;
+}
+<<<<<<< HEAD
 /*About*/
 .about {
     color: black;
@@ -608,3 +710,5 @@ figure:hover+span {
 }
 /*End About*/
 /* Search */
+=======
+>>>>>>> 300b4879b5ecbe411eea42c1b0afb4eaaeef1f46

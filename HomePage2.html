@@ -6,9 +6,10 @@
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
     <script src="jquery/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+<<<<<<< HEAD
     <!--Cài đặt icon vào thư mục gốc-->
     <link rel="shortcut icon" href="favicon.ico">
 
@@ -25,18 +26,21 @@
     <!-- Bootstrap  -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/HomePage2.css">
+=======
+    <link rel="stylesheet" href="Css/HomePage2.css">
+>>>>>>> 300b4879b5ecbe411eea42c1b0afb4eaaeef1f46
 
 </head>
 <body>
     <!-- Header -->
     <div class="header">
         <div class="sides">
-            <a href="#" class="logo" style="color: limegreen;">LOGIN</a>
+            <a href="#" class="logo" style="color: limegreen;"><button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">LOGIN</button></a>
         </div>
         <div class="sides"> <a href="#" class="menu"></a>
         </div>
         <div class="info">
-            <h4><a href="#category">VuTruong DESIGN</a></h4>
+            <h4><a href="#">VuTruong DESIGN</a></h4>
             <h1>Trang web bán hàng lớn số 1 Đôngtimo :v</h1>
             <div class="meta">193 Nguyễn Lương Bằng</div>
         </div>
@@ -70,13 +74,23 @@
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <div class="container teal borderYtoX collapse navbar-collapse nav navbar-nav navbar-right">
                             <ul class="nav navbar-nav">
-                                <li><a alt="HOME">HOME</a></li>
-                                <li><a alt="SELL">SELL</a></li>
-                                <li><a alt="ABOUT">ABOUT</a></li>
-                                <li><a alt="CONTACT">CONTACT</a></li>
+                                <li><a>HOME</a></li>
+                                <li><a>SELL</a></li>
+                                <li><a>ABOUT</a></li>
+                                <li><a>CONTACT</a></li>
                                 <li class="dropdown">
                                     <div class="dropdown">
-                                        <button class="dropbtn"><a><string>PRODUCT CATALOG</string></a></button>
+<<<<<<< HEAD
+                                        <button class="dropbtn"><a>Product Catalog</a></button>
+                                        <div class="dropdown-content">
+                                            <a href="#">Đồ Văn Phòng</a>
+                                            <a href="#">Đồ Gia Dụng</a>
+                                            <a href="#">Đồ Thể Thao</a>
+                                            <a href="#">Đồ Điện Tử</a>
+                                            <a href="#">Làm Đẹp</a>
+
+=======
+                                        <button class="dropbtn"><a>PRODUCT CATALOG</a></button>
                                         <div class="dropdown-content">
                                             <a href="#">Đồ Điện tử</a>
                                             <a href="#">Đồ Gia Dụng</a>
@@ -84,6 +98,7 @@
                                             <a href="#">Thể Thao Giải Trí</a>
                                             <a href="#">Làm Đẹp</a>
                                             <a href="#">Đồ Nội Thất</a>
+>>>>>>> f80a9051dd08159433ebac1151a56a2421d9d502
                                         </div>
                                     </div>
                                 </li>
@@ -95,6 +110,44 @@
         </div>
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content" style="color: black">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Đăng nhập</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="login-page">
+                        <div class="form">
+                            <form class="register-form">
+                                <input type="text" placeholder="name"/>
+                                <input type="password" placeholder="password"/>
+                                <input type="text" placeholder="email address"/>
+                                <button>create</button>
+                                <p class="message">Already registered? <a href="#">Sign In</a></p>
+                            </form>
+                            <form class="login-form">
+                                <input type="text" placeholder="username"/>
+                                <input type="password" placeholder="password"/>
+                                <button>login</button>
+                                <p class="message">Not registered? <a href="#">Create an account</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
     <!-- Banner -->
     <div class="banner">
         <div class="diamond">
