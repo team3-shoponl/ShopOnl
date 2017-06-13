@@ -85,6 +85,16 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
     cursor: pointer;
     font-weight: bold;
 }
+.btn-default:hover, .btn-default:focus{
+    color: #20A39E;
+    background: none;
+    border-color: #23B5AF;
+}
+.btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus, .open > .btn-default.dropdown-toggle:hover, .open > .btn-default.dropdown-toggle:focus, .open > .btn-default.dropdown-toggle.focus {
+    color: #20A39E;
+    background: none;
+    border-color: #23B5AF;
+}
 
 .affix {
     top: -10px;
@@ -137,7 +147,7 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 100px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -158,8 +168,9 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-    display: block;
+    display:block;
     color: limegreen;
+    margin-left: 17PX;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
@@ -170,6 +181,7 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 }
 .dropbtn a:hover{
     color: limegreen;
+    background-color:#eeeeee ;
 }
 
 
@@ -183,13 +195,24 @@ body {
 h1 {
     font-size: 4em;
 }
+.parallax {
+    /* The image used */
 
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .banner {
     position: relative;
     background-color: #23B5AF;
     width: 100%;
-    height: 200px;
-    margin-top: 10px;
+    height: 160px;
+    margin-top: -20px;
 }
 
 .banner .text {
@@ -202,7 +225,7 @@ h1 {
     position: absolute;
     background-color: rgba(0,0,0,.1);
     width: 60%;
-    height: 200px;
+    height: 160px;
     right: 0;
     -moz-transition: width 2s;
     -o-transition: width 2s;
@@ -218,7 +241,7 @@ h1 {
     top: 0;
     left: -100px;
     border-right: 100px solid rgba(0,0,0,.1);
-    border-bottom: 100px solid rgba(0,0,0,0);
+    border-bottom: 80px solid rgba(0,0,0,0);
 }
 
 .diamond div:before {
@@ -229,7 +252,7 @@ h1 {
     bottom: 0;
     left: -100px;
     border-right: 100px solid rgba(0,0,0,.1);
-    border-top: 100px solid rgba(0,0,0,0);
+    border-top: 80px solid rgba(0,0,0,0);
 }
 
 .banner:hover .diamond {
@@ -374,7 +397,8 @@ html,body{
     text-align:justify
 }
 .btn{
-    color:#333;
+    color: limegreen;
+    background: none;
     border:2px solid;
     border-radius:3px;
     text-decoration:none;
@@ -457,11 +481,10 @@ h2 span {
     opacity: 0;
 }
 figure {
-    width: 3000px;
-    height: 200px;
+    width: 100%;
+    height: 300px;
     margin: 0;
     padding: 0;
-    background: #fff;
     overflow: hidden;
 }
 figure:hover+span {
@@ -568,7 +591,7 @@ input[type=text]:focus {
     color: #FFFFFF;
     font-size: 14px;
     -webkit-transition: all 0.3 ease;
-    transition: all 0.3 ease;
+    transition: all 0.3 ease-in-out;
     cursor: pointer;
 }
 .form button:hover,.form button:active,.form button:focus {
@@ -630,43 +653,7 @@ input[type=text]:focus {
     padding: 20px 10px 5px 10px;
     margin-bottom: 5px;
 }
-.diamond2 {
-    position: absolute;
-    background-color: rgba(0,0,0,.1);
-    width: 60%;
-    height: 160px;
-    right: 0;
-    -moz-transition: width 2s;
-    -o-transition: width 2s;
-    -webkit-transition: width 2s;
-    transition: width 2s;
-}
 
-.diamond2:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    top: 60px;
-    left: -100px;
-    border-right: 100px solid rgba(0,0,0,.1);
-    border-bottom: 80px solid rgba(0,0,0,0);
-}
-
-.diamond2 div:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    bottom: 0;
-    left: -100px;
-    border-right: 100px solid rgba(0,0,0,.1);
-    border-top: 80px solid rgba(0,0,0,0);
-}
-
-.banner:hover .diamond2 {
-    width: 25%;
-}
 .social {
     padding: 0;
     margin: 0;
@@ -738,5 +725,36 @@ input[type=text]:focus {
     margin-bottom: 20px;
 }
 /*End About*/
+/*Produc Acidus*/
+.masonry-grid{position:relative;margin:0 -2px}
+.masonry-grid img {width: 100%;height: 300px}
+.masonry-grid:after,.masonry-grid:before{content:" ";display:table}
+.masonry-grid:after{clear:both}
+.masonry-grid .masonry-grid-item{display:block;float:left;vertical-align:top;padding:0 2px;margin-bottom:4px}
+.masonry-grid .masonry-grid-item.col-12{width:100%}
+.masonry-grid .masonry-grid-item.col-11{width:91.66666667%}
+.masonry-grid .masonry-grid-item.col-10{width:83.33333333%}
+.masonry-grid .masonry-grid-item.col-9{width:75%}.masonry-grid .masonry-grid-item.col-8{width:66.66666667%}
+.masonry-grid .masonry-grid-item.col-7{width:58.33333333%}.masonry-grid .masonry-grid-item.col-6{width:50%}
+.masonry-grid .masonry-grid-item.col-5{width:41.66666667%}.masonry-grid .masonry-grid-item.col-4{width:33.33333333%}
+.masonry-grid .masonry-grid-item.col-3{width:25%}
+.masonry-grid .masonry-grid-item.col-2{width:16.66666667%}
+.masonry-grid .masonry-grid-item.col-1{width:8.33333333%}
+@media (max-width:768px){.masonry-grid .masonry-grid-item,.masonry-grid .masonry-grid-item.col-1,.masonry-grid .masonry-grid-item.col-10,.masonry-grid .masonry-grid-item.col-11,.masonry-grid .masonry-grid-item.col-12,.masonry-grid .masonry-grid-item.col-2,.masonry-grid .masonry-grid-item.col-3,.masonry-grid .masonry-grid-item.col-4,.masonry-grid .masonry-grid-item.col-5,.masonry-grid .masonry-grid-item.col-6,.masonry-grid .masonry-grid-item.col-7,.masonry-grid .masonry-grid-item.col-8,.masonry-grid .masonry-grid-item.col-9{width:50%}}
+@media (max-width:600px){.masonry-grid .masonry-grid-item,.masonry-grid .masonry-grid-item.col-1,.masonry-grid .masonry-grid-item.col-10,.masonry-grid .masonry-grid-item.col-11,.masonry-grid .masonry-grid-item.col-12,.masonry-grid .masonry-grid-item.col-2,.masonry-grid .masonry-grid-item.col-3,.masonry-grid .masonry-grid-item.col-4,.masonry-grid .masonry-grid-item.col-5,.masonry-grid .masonry-grid-item.col-6,.masonry-grid .masonry-grid-item.col-7,.masonry-grid .masonry-grid-item.col-8,.masonry-grid .masonry-grid-item.col-9{width:100%}}
+.btn-theme,.work,.work .work-overlay{position:relative}
+.btn-theme{display:inline-block;text-align:center;background-image:none;border-style:solid;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.btn-theme:hover{transition-duration:.3s;transition-property:all;transition-timing-function:cubic-bezier(.7,1,.7,1)}
+.btn-theme.active,.btn-theme:active{background-image:none;outline:0}
+.btn-theme.disabled,.btn-theme[disabled],fieldset[disabled] .btn-theme{cursor:not-allowed;box-shadow:none;opacity:.65;pointer-events:none}
+.btn-base-bg{color:#fff;background:#17bed2;border-color:transparent;border-width:0}
+.btn-base-bg.focus,.btn-base-bg:focus,.btn-base-bg:hover{color:#fff;background:#63cbd7;border-color:transparent}
+.btn-theme-sm{font-size:13px;font-weight:600;padding:15px 40px}.work .work-content,.work .work-overlay:before{position:absolute;transition-duration:.3s;transition-property:all;transition-timing-function:cubic-bezier(.7,1,.7,1);left:0}
+.work .work-overlay:before{top:0;width:100%;height:100%;background:0 0;content:" "}
+.work .work-content{bottom:0;opacity:0;padding:25px;-webkit-transform:translate3d(0,20px,0);-moz-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0)}
+.work:hover .work-overlay:before{background:rgba(0,0,0,.5);transition-duration:.3s;transition-property:all;transition-timing-function:cubic-bezier(.7,1,.7,1)}
+.work:hover .work-content{opacity:1;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);transition-duration:.3s;transition-property:all;transition-timing-function:cubic-bezier(.7,1,.7,1)}
+
+/*End Produc Acidus*/
 /* Search */
 
