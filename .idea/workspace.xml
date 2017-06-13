@@ -18,8 +18,8 @@
       <file leaf-file-name="HomePage2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HomePage2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="195" column="72" lean-forward="false" selection-start-line="195" selection-start-column="72" selection-end-line="195" selection-end-column="72" />
+            <state relative-caret-position="498">
+              <caret line="320" column="69" lean-forward="false" selection-start-line="320" selection-start-column="69" selection-end-line="320" selection-end-column="69" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -35,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/css/HomePage2.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1018">
-              <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,7 +45,7 @@
         <entry file="file://E:/FREE CSS/acidus/HTML/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="234" column="8" lean-forward="true" selection-start-line="234" selection-start-column="8" selection-end-line="321" selection-end-column="25" />
+              <caret line="234" column="8" lean-forward="false" selection-start-line="234" selection-start-column="8" selection-end-line="321" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -54,7 +54,7 @@
       <file leaf-file-name="layout.min.css" pinned="false" current-in-tab="false">
         <entry file="file://E:/FREE CSS/acidus/HTML/css/layout.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1376">
+            <state relative-caret-position="-2005">
               <caret line="0" column="3740" lean-forward="false" selection-start-line="0" selection-start-column="2009" selection-end-line="0" selection-end-column="3740" />
               <folding />
             </state>
@@ -65,7 +65,7 @@
         <entry file="file://E:/FREE CSS/elate/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
-              <caret line="660" column="18" lean-forward="true" selection-start-line="652" selection-start-column="12" selection-end-line="660" selection-end-column="18" />
+              <caret line="660" column="18" lean-forward="false" selection-start-line="652" selection-start-column="12" selection-end-line="660" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -323,12 +323,12 @@
       <workItem from="1496838885399" duration="1756000" />
       <workItem from="1497055593209" duration="1191000" />
       <workItem from="1497193952587" duration="4001000" />
-      <workItem from="1497323200483" duration="15995000" />
+      <workItem from="1497323200483" duration="16970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56692000" />
+    <option name="totallyTimeSpent" value="57667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -702,7 +702,7 @@
     </entry>
     <entry file="file://E:/FREE CSS/acidus/HTML/css/layout.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1376">
+        <state relative-caret-position="-2005">
           <caret line="0" column="3740" lean-forward="false" selection-start-line="0" selection-start-column="2009" selection-end-line="0" selection-end-column="3740" />
           <folding />
         </state>
@@ -711,7 +711,7 @@
     <entry file="file://E:/FREE CSS/elate/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
-          <caret line="660" column="18" lean-forward="true" selection-start-line="652" selection-start-column="12" selection-end-line="660" selection-end-column="18" />
+          <caret line="660" column="18" lean-forward="false" selection-start-line="652" selection-start-column="12" selection-end-line="660" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -724,7 +724,7 @@
     <entry file="file://E:/FREE CSS/acidus/HTML/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="234" column="8" lean-forward="true" selection-start-line="234" selection-start-column="8" selection-end-line="321" selection-end-column="25" />
+          <caret line="234" column="8" lean-forward="false" selection-start-line="234" selection-start-column="8" selection-end-line="321" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -732,15 +732,15 @@
     <entry file="file://$PROJECT_DIR$/css/HomePage2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1018">
-          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomePage2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="195" column="72" lean-forward="false" selection-start-line="195" selection-start-column="72" selection-end-line="195" selection-end-column="72" />
+        <state relative-caret-position="498">
+          <caret line="320" column="69" lean-forward="false" selection-start-line="320" selection-start-column="69" selection-end-line="320" selection-end-column="69" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
