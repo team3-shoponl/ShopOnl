@@ -191,7 +191,11 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
     color: #FFFFFF;
 }
-
+h1, h1+p {
+    color: white;
+    margin: 30px 15px 0;
+    font-weight: 300;
+}
 h1 {
     font-size: 4em;
 }
@@ -678,6 +682,7 @@ input[type="file"] {
     margin: 0 4px;
 }
 .social li a i {
+    color: white;
     display: table-cell;
     vertical-align: middle;
 }
@@ -759,8 +764,9 @@ input[type="file"] {
 .work .work-overlay:before{top:0;width:100%;height:100%;background:0 0;content:" "}
 .work .work-content{bottom:0;opacity:0;padding:25px;-webkit-transform:translate3d(0,20px,0);-moz-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0)}
 .work:hover .work-overlay:before{background:rgba(0,0,0,.5);transition-duration:.3s;transition-property:all;transition-timing-function:cubic-bezier(.7,1,.7,1)}
-.work:hover .work-content{opacity:1;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);transition-duration:.3s;transition-property:all;transition-timing-function:cubic-bezier(.7,1,.7,1)}
-
+.work:hover .work-content{background:rgba(0,0,0,.5);width: 100%; opacity:1;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);transition-duration:.3s;transition-property:all;transition-timing-function:cubic-bezier(.7,1,.7,1)}
+.work:hover .work-content h3{color: white;font-weight: bold;font-family: sans-serif}
+.work:hover .work-content p{color: white}
 /*End Produc Acidus*/
 
 /*CONTACT*/
