@@ -211,6 +211,25 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.search1{
+    width: 80%;
+    border: 1px solid lavender;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.btnsearch{
+
+    background: none;
+    border:1px solid lavender;
+    border-radius:5px;
+    height: 40px;
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+    font-weight:600
+}
 .banner {
     position: relative;
     background-color: #23B5AF;
@@ -334,27 +353,27 @@ html,body{
     color:#eee
 }
 /*.menu{*/
-    /*display:block;*/
-    /*width:30px;*/
-    /*height:30px;*/
-    /*border:2px solid #fff;*/
-    /*border-radius:3px;*/
-    /*position:absolute;*/
-    /*right:20px;*/
-    /*top:20px;*/
-    /*text-decoration:none*/
+/*display:block;*/
+/*width:30px;*/
+/*height:30px;*/
+/*border:2px solid #fff;*/
+/*border-radius:3px;*/
+/*position:absolute;*/
+/*right:20px;*/
+/*top:20px;*/
+/*text-decoration:none*/
 /*}*/
 /*.menu:after{*/
-    /*content:"";*/
-    /*display:block;*/
-    /*width:20px;*/
-    /*height:3px;*/
-    /*background:#fff;*/
-    /*position:absolute;*/
-    /*margin:0 auto;*/
-    /*top:5px;*/
-    /*left:0;*/
-    /*right:0;*/
+/*content:"";*/
+/*display:block;*/
+/*width:20px;*/
+/*height:3px;*/
+/*background:#fff;*/
+/*position:absolute;*/
+/*margin:0 auto;*/
+/*top:5px;*/
+/*left:0;*/
+/*right:0;*/
 /*}*/
 .logo{
     /*border:2px solid limegreen;*/
@@ -600,13 +619,11 @@ input[type="file"] {
     padding: 15px;
     color: #FFFFFF;
     font-size: 14px;
-<<<<<<< HEAD
     /*-webkit-transition: all 0.3 ease;*/
     /*transition: all 0.3 ease-in-out;*/
-=======
     -webkit-transition: width 0.3s ease-in-out;
     transition: width 0.3s ease-in-out;
->>>>>>> b915f5a9a9db2d609a6283ed9b5da4da6ddaacb5
+
     cursor: pointer;
 }
 
@@ -775,11 +792,23 @@ input[type="file"] {
 .work .work-content{bottom:0;opacity:0;padding:25px;-webkit-transform:translate3d(0,20px,0);-moz-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0)}
 .work:hover .work-overlay:before{background:rgba(0,0,0,.5);transition-duration:.3s;transition-property:all;transition-timing-function:cubic-bezier(.7,1,.7,1)}
 .work:hover .work-content{background:rgba(0,0,0,.5);width: 100%; opacity:1;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);transition-duration:.3s;transition-property:all;-timing-function:cubic-bezier(.7,1,.7,1)}
-.work:hover .work-content h3{color: white;font-weight: bold;font-family: sans-serif}
-.work:hover .work-content p{color: white}
+.work:hover .work-content h4{
+    margin-top: -15px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.work:hover .work-content a{
+    color: white;
+    font-weight: 100;
+}
+.work:hover .work-content a:hover {color: white;font-weight: bold }
+
 /*End Produc Acidus*/
 
 /*CONTACT*/
+
+
 b, strong {
     color: black;
     font-weight: bold;
@@ -819,7 +848,8 @@ b, strong {
 }
 .section-heading h2 {
     margin: 0 0 30px 0;
-    font-size: 50px;
+    font-family: SansSerif;
+    font-size: 30px;
     font-weight: 300;
     color: #444;
     text-transform: uppercase;
