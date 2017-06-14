@@ -508,6 +508,10 @@ h2 span {
     width: 100%;
 }
 
+.nav-tabs{
+
+}
+
 /* Side Nav*/
 
 @media (min-width: 768px) {
@@ -531,7 +535,7 @@ h2 span {
 /* Search */
 
 input[type=text] {
-    width: 130px;
+    width: 230px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -550,7 +554,6 @@ input[type=text]:focus {
 }
 
 /* Login */
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 .login-page {
     width: 360px;
@@ -588,10 +591,11 @@ input[type=text]:focus {
     padding: 15px;
     color: #FFFFFF;
     font-size: 14px;
-    -webkit-transition: all 0.3 ease;
-    transition: all 0.3 ease-in-out;
+    /*-webkit-transition: all 0.3 ease;*/
+    /*transition: all 0.3 ease-in-out;*/
     cursor: pointer;
 }
+
 .form button:hover,.form button:active,.form button:focus {
     background: #43A047;
 }
@@ -723,6 +727,7 @@ input[type=text]:focus {
     margin-bottom: 20px;
 }
 /*End About*/
+
 /*Produc Acidus*/
 .masonry-grid{position:relative;margin:0 -2px}
 .masonry-grid img {width: 100%;height: 300px}
