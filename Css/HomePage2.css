@@ -284,22 +284,21 @@ h1 {
 }
 
 .footer{
-    background-color: lightgrey;
+    background-color: #20a39e;
     text-decoration: none;
-    color: black;
-    clear: both;
+    color: white;
+    font-weight: 200;
 }
-
-a {
-    color: black;
-    text-decoration: none;
-}
-
-a:focus, a:hover {
-    color: orange;
+.footer ul li{color: white}
+.footer a {
+    color: white;
     text-decoration: none;
 }
 
+.footer a:focus, .footer a:hover {
+    color: gold;    
+    text-decoration: none;
+}
 /* Header */
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
 html,body{
@@ -342,7 +341,7 @@ html,body{
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
     transform: translateZ(0);
-    background:#1B2030 url(../image/choonl.jpg) top center no-repeat;
+    background:#1B2030 url(../image/poster1.png) top center no-repeat;
     background-size:cover;
     background-attachment:fixed;
     animation: grow 60s  linear 10ms infinite;
@@ -679,6 +678,7 @@ input[type="file"] {
 .about {
     color: black;
     font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
     /*font-weight: 300;*/
 }
 .team{
@@ -766,18 +766,6 @@ input[type="file"] {
 .masonry-grid:after,.masonry-grid:before{content:" ";display:table}
 .masonry-grid:after{clear:both}
 .masonry-grid .masonry-grid-item{display:block;float:left;vertical-align:top;padding:0 2px;margin-bottom:4px}
-.masonry-grid .masonry-grid-item.col-12{width:100%}
-.masonry-grid .masonry-grid-item.col-11{width:91.66666667%}
-.masonry-grid .masonry-grid-item.col-10{width:83.33333333%}
-.masonry-grid .masonry-grid-item.col-9{width:75%}
-.masonry-grid .masonry-grid-item.col-8{width:66.66666667%}
-.masonry-grid .masonry-grid-item.col-7{width:58.33333333%}
-.masonry-grid .masonry-grid-item.col-6{width:50%}
-.masonry-grid .masonry-grid-item.col-5{width:41.66666667%}
-.masonry-grid .masonry-grid-item.col-4{width:33.33333333%}
-.masonry-grid .masonry-grid-item.col-3{width:25%}
-.masonry-grid .masonry-grid-item.col-2{width:16.66666667%}
-.masonry-grid .masonry-grid-item.col-1{width:8.33333333%}
 @media (max-width:768px){.masonry-grid .masonry-grid-item,.masonry-grid .masonry-grid-item.col-1,.masonry-grid .masonry-grid-item.col-10,.masonry-grid .masonry-grid-item.col-11,.masonry-grid .masonry-grid-item.col-12,.masonry-grid .masonry-grid-item.col-2,.masonry-grid .masonry-grid-item.col-3,.masonry-grid .masonry-grid-item.col-4,.masonry-grid .masonry-grid-item.col-5,.masonry-grid .masonry-grid-item.col-6,.masonry-grid .masonry-grid-item.col-7,.masonry-grid .masonry-grid-item.col-8,.masonry-grid .masonry-grid-item.col-9{width:50%}}
 @media (max-width:600px){.masonry-grid .masonry-grid-item,.masonry-grid .masonry-grid-item.col-1,.masonry-grid .masonry-grid-item.col-10,.masonry-grid .masonry-grid-item.col-11,.masonry-grid .masonry-grid-item.col-12,.masonry-grid .masonry-grid-item.col-2,.masonry-grid .masonry-grid-item.col-3,.masonry-grid .masonry-grid-item.col-4,.masonry-grid .masonry-grid-item.col-5,.masonry-grid .masonry-grid-item.col-6,.masonry-grid .masonry-grid-item.col-7,.masonry-grid .masonry-grid-item.col-8,.masonry-grid .masonry-grid-item.col-9{width:100%}}
 .btn-theme,.work,.work .work-overlay{position:relative}
