@@ -515,7 +515,6 @@ h2 span {
 
 
 
-
 /* Zoom In #1 */
 .hover01 figure img {
     -webkit-transform: scale(1);
@@ -786,11 +785,15 @@ input[type="file"] {
     font-weight: bold;
     font-family: sans-serif;
 }
-.work:hover .work-content a{
+.work:hover .work-content ul{
+    list-style: none;
+
+}
+.work:hover .work-content ul li a{
     color: white;
     font-weight: 100;
 }
-.work:hover .work-content a:hover {color: white;font-weight: bold }
+.work:hover .work-content ul li a:hover {color: #00bff3}
 
 /*End Produc Acidus*/
 
