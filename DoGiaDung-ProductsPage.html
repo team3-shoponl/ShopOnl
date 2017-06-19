@@ -2,210 +2,297 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Đồ gia dụng - YKOCHI Store</title>
+    <title>Trang sản phẩm</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!--<link rel="stylesheet" href="css/index.css">-->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../2017.04.24/135/135/Hover Jquery/reset.css">
-    <link rel="stylesheet" href="../2017.04.24/135/135/Hover Jquery/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="Css/DoGiaDung-ProductsPage.css">
-    <link rel="stylesheet" href="Css/HomePage.css">
-
-
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <script src="jquery/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Css/HomePage2.css">
+    <link rel="stylesheet" href="Css/PDP2.css">
+    <link rel="stylesheet" href="Css/demo.css">
+    <link rel="stylesheet" href="Css/footer-distributed-with-address-and-phones.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/HomePage2.js"></script>
 </head>
 <body>
-<div class="container-fluid">
+<!-- Navbar -->
+
+<div class="container-fluid menu">
     <div class="row">
-        <div class="col-md-12">
-            <div class="row">
-                <ul class="breadcrumb">
-                    <li><a href="#">Sign in</a></li>
-                    <li><a href="#">Sign up</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Menu -->
-<div class="container-fluid">
-    <div class="row"></div>
-    <nav class="navbar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="HomePage.html" ><img src="../ShopOnl/image/name.png"></a>
-            </div>
-            <div class="collapse navbar-collapse nav navbar-nav navbar-right" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sell</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li class="dropdown">
-                        <a data-toggle="dropdown" href="">Product Catalog<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="DoGiaDung-ProductsPage.html">Đồ gia dụng</a></li>
-                            <li><a href="DoDienTu-ProductsPage.html">Đồ điện tử</a></li>
-                            <li><a href="DoVanPhong-ProductsPage.html">Đồ văn phòng</a></li>
-                            <li><a href="LamDep-ProductsPage.html">Làm đẹp</a></li>
+        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="560">
+            <div class="container-fluid navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Logo</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <div class="container teal borderYtoX collapse navbar-collapse nav navbar-nav navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li><a>HOME</a></li>
+                            <li><a>SELL</a></li>
+                            <li><a>ABOUT</a></li>
+                            <li><a>CONTACT</a></li>
+                            <li class="dropdown">
+                                <div class="dropdown">
+                                    <button class="dropbtn"><a>PRODUCT CATALOG</a></button>
+                                    <div class="dropdown-content">
+                                        <a href="#">Đồ Điện tử</a>
+                                        <a href="#">Đồ Gia Dụng</a>
+                                        <a href="#">Đồ Văn Phòng</a>
+                                        <a href="#">Thể Thao Giải Trí</a>
+                                        <a href="#">Làm Đẹp</a>
+                                        <a href="#">Đồ Nội Thất</a>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 </div>
-    <!--Đồ gia dụng | Đồ điện tử | Đồ văn phòng | Làm đẹp-->
 
-<!--<div class="collapse navbar-collapse nav navbar-nav navbar-right" id="myNavbar" style="width: 100%;">-->
-    <!--<ul class="nav navbar-nav" style="color: white;">-->
-        <!--<li><a href="DoGiaDung-ProductsPage.html" class="b" style="color: limegreen">Đồ gia dụng</a></li>-->
-        <!--<li><a href="DoDienTu-ProductsPage.html" class="b">Đồ điện tử</a></li>-->
-        <!--<li><a href="DoVanPhong-ProductsPage.html" class="b">Đồ văn phòng</a></li>-->
-        <!--<li><a href="LamDep-ProductsPage.html" class="b">Làm đẹp</a></li>-->
-    <!--</ul>-->
-<!--</div>-->
-
-    <!-- Search -->
 <div class="container">
-        <p>Tìm kiếm sản phẩm: </p>
-    <input type="text" name="search" placeholder="Search">
-</div>
-    <!--Sản phẩm-->
-
-
-<div class="row">
-    <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="thumbnail">
-            <a href="image/lovisong.png" target="_blank">
-                <img src="image/lovisong.png" alt="Lights" style="width:100%">
-                <div class="caption">
-                    <p>Lò vi sóng</p> </div></a>
-            <div>    <b style="color: red">3.790.000 VNĐ</b>
-            </div>
-
-
-        </div>
-
-    </div>
-    <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="thumbnail">
-            <a href="image/noicomdien.jpg" target="_blank">
-                <img src="image/noicomdien.jpg" alt="Nature" style="width:100%">
-                <div class="caption">
-                    <p>Nồi cơm điện</p></div></a>
-            <div><b style="color: red">2.590.000 VNĐ</b>
-            </div>
-
-        </div>
-    </div>
-    <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="thumbnail">
-            <a href="image/boxoongnoi.png" target="_blank">
-                <img src="image/boxoongnoi.png" alt="Fjords" style="width:100%">
-                <div class="caption">
-                    <p>Bộ xoong nồi</p> </div></a>
-            <div>    <b style="color: red">990.000 VNĐ</b>
-            </div>
-
-        </div>
-
-    </div>
-    <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="thumbnail">
-            <a href="image/dienthoai - Copy.png" target="_blank">
-                <img src="image/dienthoai - Copy.png" alt="Fjords" style="width:100%;height:350px">
-                <div class="caption">
-                    <p>Huawei P10</p> </div></a>
-            <div>    <b style="color: red">6.990.000 VNĐ</b>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-<div class="row">
-    <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="thumbnail">
-            <a href="image/dienthoai.png" target="_blank">
-                <img src="image/dienthoai.png" alt="Lights" style="width:100%">
-                <div class="caption">
-                    <p>Apple iPhone</p> </div></a>
-            <div>    <b style="color: red">19.990.000 VNĐ</b>
-            </div>
-
-
-        </div>
-
-    </div>
-    <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="thumbnail">
-            <a href="image/maytinhbang.png" target="_blank">
-                <img src="image/maytinhbang.png" alt="Nature" style="width:100%">
-                <div class="caption">
-                    <p>Apple iPad</p></div></a>
-            <div><b style="color: red">9.990.000 VNĐ</b>
-            </div>
-
-        </div>
-    </div>
-    <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="thumbnail">
-            <a href="image/laptop.png" target="_blank">
-                <img src="image/laptop.png" alt="Fjords" style="width:100%">
-                <div class="caption">
-                    <p>Apple Macbook</p> </div></a>
-            <div>    <b style="color: red">64.990.000 VNĐ</b>
-            </div>
-
-        </div>
-
-    </div>
-    <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="thumbnail">
-            <a href="image/dienthoai - Copy.png" target="_blank">
-                <img src="image/dienthoai - Copy.png" alt="Fjords" style="width:100%;height:350px">
-                <div class="caption">
-                    <p>Huawei P10</p> </div></a>
-            <div>    <b style="color: red">6.990.000 VNĐ</b>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-<!--Sản phẩm kết thúc-->
-
-<div class="container-fuild">
     <div class="row">
-        <div class="footer" style="background-color: #292929">
-            <div class="col-md-7 cl">Facebook | Youtube | Google+</div>
-            <div class="col-md-5 cr">
-                Contact:<br>
-                Phone: 0935-xxx-xxx<br>
-                Email: xxxxxxxx@gmail.com<br>
+        <ul class="nav nav-tabs">
+            <li><a href="#">Đồ Gia Dụng</a></li>
+            <li><a href="#">Đồ Điện tử</a></li>
+            <li><a href="#">Nội Thất</a></li>
+            <li><a href="#">Làm đẹp</a></li>
+            <li><a href="#">Thể Thao</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <!-- Banner: trang gia dụng thì banner gia dụng, trang điện tử thì banner điện tử-->
+        <div class="masonry-grid hover01">
+            <div class="masonry-grid-item col-xs-12 col-sm-12 col-md-12">
+                <!-- Work -->
+                <div class="work">
+                    <div class="work-overlay">
+                        <figure><img src="image/1200x300_Best-seller.jpg" ></figure>
+                    </div>
+                    <div class="work-content">
+                        <h3 class="color-white margin-b-5">Art Of Coding</h3>
+                        <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
+                    </div>
+                    <a class="content-wrapper-link" href="#"></a>
+                </div>
+                <!-- End Work -->
+            </div>
+            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                <!-- Work -->
+                <div class="work">
+                    <div class="work-overlay">
+                        <figure><img src="image/dienthoaibanchay.png" ></figure>
+                    </div>
+                    <div class="work-content">
+                        <h3 class="color-white margin-b-5">Clean Design</h3>
+                        <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
+                    </div>
+                    <a class="content-wrapper-link" href="#"></a>
+                </div>
+                <!-- End Work -->
+            </div>
+            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                <!-- Work -->
+                <div class="work">
+                    <div class="work-overlay">
+                        <figure><img src="image/tgpk.jpg" ></figure>
+                    </div>
+                    <div class="work-content">
+                        <h3 class="color-white margin-b-5">Clean Design</h3>
+                        <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
+                    </div>
+                    <a class="content-wrapper-link" href="#"></a>
+                </div>
+                <!-- End Work -->
+            </div>
+            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                <!-- Work -->
+                <div class="work">
+                    <div class="work-overlay">
+                        <figure><img src="image/shipper.png" ></figure>
+                    </div>
+                    <div class="work-content">
+                        <h3 class="color-white margin-b-5">Clean Design</h3>
+                        <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
+                    </div>
+                    <a class="content-wrapper-link" href="#"></a>
+                </div>
+                <!-- End Work -->
             </div>
         </div>
     </div>
 </div>
+<!-- Sản Phẩm -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="container">
+            <!-- Search -->
+            <input type="text" name="search" placeholder="Search.." style="margin-top: 20px; margin-bottom: 20px">
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Side Nav-->
+                <div class="col-sm-2">
+                    <div class="sidebar-nav">
+                        <div class="navbar navbar-default" role="navigation">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <span class="visible-xs navbar-brand"></span>
+                            </div>
+                            <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                                <ul class="nav navbar-nav navbar-collapse"><h3 style="color: limegreen">Danh Mục</h3>
+                                    <li><a href="#">Quần áo nam</a></li>
+                                    <li><a href="#">Quần áo nam</a></li>
+                                    <li><a href="#">Quần áo nam</a></li>
+                                    <li><a href="#">Quần áo nam</a></li>
+                                    <li><a href="#">Reviews <span class="badge">1,118</span></a></li>
+                                </ul>
+                            </div><!--/.nav-collapse -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <figure class="hover-effect-1">
+                        <img src="image/maytinhbang.png" alt="hover-effect-1" />
+                        <figcaption>
+                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
+                        </figcaption>
+                        <a href="Product%20Information.html"></a>
+                    </figure>
+                    <figure class="hover-effect-1"><img src="image/maytinhbang.png" alt="hover-effect-1" />
+                        <figcaption>
+                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
+                        </figcaption>
+                        <a href="Product%20Information.html"></a>
+                    </figure>
+                    <figure class="hover-effect-1"><img src="image/maytinhbang.png" alt="hover-effect-1" />
+                        <figcaption>
+                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
+                        </figcaption>
+                        <a href="Product%20Information.html"></a>
+                    </figure>
+                    <figure class="hover-effect-1">
+                        <img src="image/maytinhbang.png" alt="hover-effect-1" />
+                        <figcaption>
+                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
+                        </figcaption>
+                        <a href="Product%20Information.html"></a>
+                    </figure>
+                    <figure class="hover-effect-1"><img src="image/maytinhbang.png" alt="hover-effect-1" />
+                        <figcaption>
+                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
+                        </figcaption>
+                        <a href="Product%20Information.html"></a>
+                    </figure>
+                    <figure class="hover-effect-1"><img src="image/maytinhbang.png" alt="hover-effect-1" />
+                        <figcaption>
+                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
+                        </figcaption>
+                        <a href="Product%20Information.html"></a>
+                    </figure>
+                    <figure class="hover-effect-1">
+                        <img src="image/maytinhbang.png" alt="hover-effect-1" />
+                        <figcaption>
+                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
+                        </figcaption>
+                        <a href="Product%20Information.html"></a>
+                    </figure>
+                    <figure class="hover-effect-1"><img src="image/maytinhbang.png" alt="hover-effect-1" />
+                        <figcaption>
+                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
+                        </figcaption>
+                        <a href="Product%20Information.html"></a>
+                    </figure>
+                    <figure class="hover-effect-1"><img src="image/maytinhbang.png" alt="hover-effect-1" />
+                        <figcaption>
+                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
+                        </figcaption>
+                        <a href="Product%20Information.html"></a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Footer-->
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+        <h3>Ykochi<span>Store</span></h3>
+
+        <p class="footer-links">
+            <a href="#">Home</a>
+            ·
+            <a href="#">Blog</a>
+            ·
+            <a href="#">Pricing</a>
+            ·
+            <a href="#">About</a>
+            ·
+            <a href="#">Faq</a>
+            ·
+            <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">YkochiStore &copy; 2017</p>
+    </div>
+
+    <div class="footer-center">
+
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span style="color: white">21 Revolution Street</span> Paris, France</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+1 555 123456</p>
+        </div>
+
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">support@company.com</a></p>
+        </div>
+
+    </div>
+
+    <div class="footer-right">
+
+        <p class="footer-company-about">
+            <span>About the company</span>
+            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+        </p>
+
+        <div class="footer-icons">
+
+            <a href="#"><i class="fa fa-facebook" style="color: white"></i></a>
+            <a href="#"><i class="fa fa-twitter" style="color: white"></i></a>
+            <a href="#"><i class="fa fa-linkedin" style="color: white"></i></a>
+            <a href="#"><i class="fa fa-github" style="color: white"></i></a>
+
+        </div>
+
+    </div>
+
+</footer>
 
 </body>
 </html>
-
