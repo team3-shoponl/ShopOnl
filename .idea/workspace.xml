@@ -18,9 +18,14 @@
       <file leaf-file-name="HomePage2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HomePage2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="302" column="56" lean-forward="false" selection-start-line="302" selection-start-column="56" selection-end-line="302" selection-end-column="56" />
-              <folding />
+            <state relative-caret-position="51">
+              <caret line="490" column="8" lean-forward="false" selection-start-line="490" selection-start-column="8" selection-end-line="546" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#2;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#3;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -28,27 +33,17 @@
       <file leaf-file-name="HomePage2.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Css/HomePage2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-615">
-              <caret line="793" column="20" lean-forward="false" selection-start-line="793" selection-start-column="20" selection-end-line="793" selection-end-column="20" />
+            <state relative-caret-position="236">
+              <caret line="285" column="7" lean-forward="false" selection-start-line="285" selection-start-column="7" selection-end-line="285" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../ShopOnl/HomePage2.html">
+      <file leaf-file-name="ProductPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../ShopOnl/ProductPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="189" column="59" lean-forward="true" selection-start-line="189" selection-start-column="59" selection-end-line="189" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePage2.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../ShopOnl/Css/HomePage2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-1326">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -68,8 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>background-position:</find>
-      <find>row-bottom-padded-md</find>
       <find>fh5co-contact-info</find>
       <find>SUBTEXT</find>
       <find>contact-</find>
@@ -97,7 +90,9 @@
       <find>background-image</find>
       <find>li {</find>
       <find>list-style-</find>
+      <find>footerle</find>
       <find>btn-theme</find>
+      <find>footer-le</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -286,12 +281,12 @@
       <workItem from="1497401536531" duration="11973000" />
       <workItem from="1497422117825" duration="1776000" />
       <workItem from="1497438394321" duration="637000" />
-      <workItem from="1497855573923" duration="4591000" />
+      <workItem from="1497855573923" duration="5115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78463000" />
+    <option name="totallyTimeSpent" value="78987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -326,13 +321,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/HomePage2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProductPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -660,14 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Css/HomePage2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-615">
-          <caret line="793" column="20" lean-forward="false" selection-start-line="793" selection-start-column="20" selection-end-line="793" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../ShopOnl/Css/HomePage2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -684,11 +664,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../ShopOnl/ProductPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Css/HomePage2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="285" column="7" lean-forward="false" selection-start-line="285" selection-start-column="7" selection-end-line="285" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HomePage2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="302" column="56" lean-forward="false" selection-start-line="302" selection-start-column="56" selection-end-line="302" selection-end-column="56" />
-          <folding />
+        <state relative-caret-position="51">
+          <caret line="490" column="8" lean-forward="false" selection-start-line="490" selection-start-column="8" selection-end-line="546" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#2;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#3;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
