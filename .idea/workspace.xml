@@ -15,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomePage2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomePage2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomePage2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="490" column="8" lean-forward="false" selection-start-line="490" selection-start-column="8" selection-end-line="546" selection-end-column="14" />
+            <state relative-caret-position="-374">
+              <caret line="489" column="19" lean-forward="false" selection-start-line="489" selection-start-column="19" selection-end-line="489" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -30,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage2.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HomePage2.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Css/HomePage2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="285" column="7" lean-forward="false" selection-start-line="285" selection-start-column="7" selection-end-line="285" selection-end-column="7" />
+            <state relative-caret-position="388">
+              <caret line="941" column="24" lean-forward="false" selection-start-line="941" selection-start-column="24" selection-end-line="941" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -43,8 +43,8 @@
       <file leaf-file-name="ProductPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../ShopOnl/ProductPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1326">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-833">
+              <caret line="62" column="42" lean-forward="false" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -63,7 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fh5co-contact-info</find>
       <find>SUBTEXT</find>
       <find>contact-</find>
       <find>address</find>
@@ -91,8 +90,9 @@
       <find>li {</find>
       <find>list-style-</find>
       <find>footerle</find>
-      <find>btn-theme</find>
       <find>footer-le</find>
+      <find>footer</find>
+      <find>btn-theme</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,9 +112,10 @@
         <option value="E:/FREE CSS/elate/index.html" />
         <option value="E:/FREE CSS/horizontal-admin/index.html" />
         <option value="$PROJECT_DIR$/css/HomePage2.css" />
-        <option value="$PROJECT_DIR$/Css/HomePage2.css" />
         <option value="$PROJECT_DIR$/../../ShopOnl/HomePage2.html" />
         <option value="$PROJECT_DIR$/HomePage2.html" />
+        <option value="$PROJECT_DIR$/../../ShopOnl/ProductPage.html" />
+        <option value="$PROJECT_DIR$/Css/HomePage2.css" />
       </list>
     </option>
   </component>
@@ -281,12 +282,12 @@
       <workItem from="1497401536531" duration="11973000" />
       <workItem from="1497422117825" duration="1776000" />
       <workItem from="1497438394321" duration="637000" />
-      <workItem from="1497855573923" duration="5115000" />
+      <workItem from="1497855573923" duration="6369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78987000" />
+    <option name="totallyTimeSpent" value="80241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -666,30 +667,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../ShopOnl/ProductPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Css/HomePage2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="285" column="7" lean-forward="false" selection-start-line="285" selection-start-column="7" selection-end-line="285" selection-end-column="7" />
+        <state relative-caret-position="-833">
+          <caret line="62" column="42" lean-forward="false" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomePage2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="490" column="8" lean-forward="false" selection-start-line="490" selection-start-column="8" selection-end-line="546" selection-end-column="14" />
+        <state relative-caret-position="-374">
+          <caret line="489" column="19" lean-forward="false" selection-start-line="489" selection-start-column="19" selection-end-line="489" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#a#2;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#a#3;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Css/HomePage2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="941" column="24" lean-forward="false" selection-start-line="941" selection-start-column="24" selection-end-line="941" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
