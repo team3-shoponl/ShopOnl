@@ -197,3 +197,24 @@
     opacity: 1;
 }
 
+/* Giỏ hàng */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 40%;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
