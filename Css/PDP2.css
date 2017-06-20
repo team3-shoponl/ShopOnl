@@ -1,5 +1,4 @@
 
-
 .hover-effect-1 {
     background-color: whitesmoke;
     color: #ffffff;
@@ -214,7 +213,7 @@
 }
 
 #myBtn:hover {
-    background-color: lightgrey;
+    background-color: whitesmoke;
     color: black;
 }
 

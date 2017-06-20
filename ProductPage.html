@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="App">
 <head>
     <meta charset="UTF-8">
     <title>Trang sản phẩm</title>
@@ -16,6 +16,9 @@
     <!--<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">-->
     <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>-->
     <script src="js/HomePage2.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.js"></script>
+
 </head>
 <body>
 <!-- Navbar -->
@@ -174,57 +177,19 @@
                 </div>
                 <div class="col-md-10">
                     <figure class="hover-effect-1">
-                        <img src="image/maytinhbang.png" alt="hover-effect-1" />
-                        <figcaption>
-                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
-                        </figcaption>
-                        <a href="Product%20Information.html"></a>
-                    </figure>
-                    <figure class="hover-effect-1"><img src="image/maytinhbang.png" alt="hover-effect-1" />
-                        <figcaption>
-                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
-                        </figcaption>
-                        <a href="Product%20Information.html"></a>
-                    </figure>
-                    <figure class="hover-effect-1"><img src="image/maytinhbang.png" alt="hover-effect-1" />
-                        <figcaption>
-                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
-                        </figcaption>
-                        <a href="Product%20Information.html"></a>
+                        <script src="js/app.js"></script>
+                        <ul ng-controller="TodoCtrl">
+                            <li ng-repeat="item in todos">
+                                <img src="{{item.image}}" alt="hover-effect-1" />
+                                <figcaption>
+                                    <h3>{{item.name}}<span>{{item.info}}<br>{{item.info}}<br>{{item.price}}</span></h3>
+                                </figcaption>
+                                <a href="Product%20Information.html"></a>
+                            </li>
+                        </ul>
                     </figure>
                     <figure class="hover-effect-1">
                         <img src="image/maytinhbang.png" alt="hover-effect-1" />
-                        <figcaption>
-                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
-                        </figcaption>
-                        <a href="Product%20Information.html"></a>
-                    </figure>
-                    <figure class="hover-effect-1"><img src="image/maytinhbang.png" alt="hover-effect-1" />
-                        <figcaption>
-                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
-                        </figcaption>
-                        <a href="Product%20Information.html"></a>
-                    </figure>
-                    <figure class="hover-effect-1"><img src="image/maytinhbang.png" alt="hover-effect-1" />
-                        <figcaption>
-                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
-                        </figcaption>
-                        <a href="Product%20Information.html"></a>
-                    </figure>
-                    <figure class="hover-effect-1">
-                        <img src="image/maytinhbang.png" alt="hover-effect-1" />
-                        <figcaption>
-                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
-                        </figcaption>
-                        <a href="Product%20Information.html"></a>
-                    </figure>
-                    <figure class="hover-effect-1"><img src="image/maytinhbang.png" alt="hover-effect-1" />
-                        <figcaption>
-                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
-                        </figcaption>
-                        <a href="Product%20Information.html"></a>
-                    </figure>
-                    <figure class="hover-effect-1"><img src="image/maytinhbang.png" alt="hover-effect-1" />
                         <figcaption>
                             <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
                         </figcaption>
