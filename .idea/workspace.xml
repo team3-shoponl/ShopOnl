@@ -18,8 +18,13 @@
       <file leaf-file-name="HomePage2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomePage2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
-              <caret line="489" column="19" lean-forward="false" selection-start-line="489" selection-start-column="19" selection-end-line="489" selection-end-column="19" />
+<<<<<<< HEAD
+            <state relative-caret-position="153">
+              <caret line="521" column="18" lean-forward="false" selection-start-line="521" selection-start-column="18" selection-end-line="521" selection-end-column="18" />
+=======
+            <state relative-caret-position="-493">
+              <caret line="130" column="34" lean-forward="false" selection-start-line="130" selection-start-column="30" selection-end-line="130" selection-end-column="34" />
+>>>>>>> 2b72e1ba7c1c53e4c0c6a51be251ff79d645e5fa
               <folding>
                 <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -30,21 +35,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage2.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Css/HomePage2.css">
+      <file leaf-file-name="ProductPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProductPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="941" column="24" lean-forward="false" selection-start-line="941" selection-start-column="24" selection-end-line="941" selection-end-column="24" />
+<<<<<<< HEAD
+            <state relative-caret-position="99">
+              <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+=======
+            <state relative-caret-position="185">
+              <caret line="327" column="46" lean-forward="false" selection-start-line="327" selection-start-column="46" selection-end-line="327" selection-end-column="46" />
+>>>>>>> 2b72e1ba7c1c53e4c0c6a51be251ff79d645e5fa
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductPage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../ShopOnl/ProductPage.html">
+      <file leaf-file-name="Product Information.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Product Information.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-833">
+            <state relative-caret-position="372">
+              <caret line="31" column="56" lean-forward="false" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Css/HomePage2.css">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="388">
+              <caret line="916" column="1" lean-forward="false" selection-start-line="916" selection-start-column="1" selection-end-line="916" selection-end-column="1" />
+=======
+            <state relative-caret-position="1054">
               <caret line="62" column="42" lean-forward="false" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+>>>>>>> 2b72e1ba7c1c53e4c0c6a51be251ff79d645e5fa
               <folding />
             </state>
           </provider>
@@ -63,7 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>SUBTEXT</find>
       <find>contact-</find>
       <find>address</find>
       <find>form-control</find>
@@ -91,8 +115,9 @@
       <find>list-style-</find>
       <find>footerle</find>
       <find>footer-le</find>
-      <find>footer</find>
       <find>btn-theme</find>
+      <find>footer</find>
+      <find>foot</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,15 +132,16 @@
         <option value="$PROJECT_DIR$/Css/HomePage.css" />
         <option value="$PROJECT_DIR$/Sualoi.html" />
         <option value="$PROJECT_DIR$/js/HomePage2.js" />
-        <option value="$PROJECT_DIR$/ProductPage.html" />
         <option value="$PROJECT_DIR$/HomePage.html" />
         <option value="E:/FREE CSS/elate/index.html" />
         <option value="E:/FREE CSS/horizontal-admin/index.html" />
         <option value="$PROJECT_DIR$/css/HomePage2.css" />
         <option value="$PROJECT_DIR$/../../ShopOnl/HomePage2.html" />
-        <option value="$PROJECT_DIR$/HomePage2.html" />
         <option value="$PROJECT_DIR$/../../ShopOnl/ProductPage.html" />
+        <option value="$PROJECT_DIR$/HomePage2.html" />
         <option value="$PROJECT_DIR$/Css/HomePage2.css" />
+        <option value="$PROJECT_DIR$/ProductPage.html" />
+        <option value="$PROJECT_DIR$/Product Information.html" />
       </list>
     </option>
   </component>
@@ -146,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -162,6 +187,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,15 +308,25 @@
       <workItem from="1497401536531" duration="11973000" />
       <workItem from="1497422117825" duration="1776000" />
       <workItem from="1497438394321" duration="637000" />
+<<<<<<< HEAD
       <workItem from="1497855573923" duration="6369000" />
+      <workItem from="1497869820905" duration="171000" />
+=======
+      <workItem from="1497855573923" duration="8325000" />
+      <workItem from="1497869663607" duration="226000" />
+>>>>>>> 2b72e1ba7c1c53e4c0c6a51be251ff79d645e5fa
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80241000" />
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="80412000" />
+=======
+    <option name="totallyTimeSpent" value="82423000" />
+>>>>>>> 2b72e1ba7c1c53e4c0c6a51be251ff79d645e5fa
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24670571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -322,13 +358,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ProductPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Css/HomePage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2176">
@@ -527,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProductPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HomePage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -541,6 +563,28 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://E:/FREE CSS/elate/css/icomoon.css" />
+    <entry file="file://E:/FREE CSS/elate/css/simple-line-icons.css" />
+    <entry file="file://E:/FREE CSS/elate/css/animate.css" />
+    <entry file="file://E:/FREE CSS/horizontal-admin/assets/css/style.css" />
+    <entry file="file://E:/FREE CSS/horizontal-admin/index.html" />
+    <entry file="file://E:/FREE CSS/elate/index.html" />
+    <entry file="file://E:/FREE CSS/elate/css/style.css" />
+    <entry file="file://E:/FREE CSS/acidus/HTML/index.html" />
+    <entry file="file://E:/FREE CSS/acidus/HTML/css/layout.min.css" />
+    <entry file="file://E:/135/Hover Jquery/reset.css" />
+    <entry file="file://E:/135/Hover Jquery/index.html" />
+    <entry file="file://E:/135/Hover Jquery/style.css" />
+    <entry file="file://E:/135/Hover Jquery/hover.js" />
+    <entry file="file://$PROJECT_DIR$/../../ShopOnl/Css/HomePage2.css" />
+    <entry file="file://$PROJECT_DIR$/../../ShopOnl/HomePage2.html" />
+    <entry file="file://$PROJECT_DIR$/../../ShopOnl/ProductPage.html" />
+    <entry file="file://$PROJECT_DIR$/Css/HomePage2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="916" column="1" lean-forward="false" selection-start-line="916" selection-start-column="1" selection-end-line="916" selection-end-column="1" />
+=======
     <entry file="file://E:/FREE CSS/elate/css/icomoon.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4743">
@@ -566,7 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
           <caret line="79" column="62" lean-forward="false" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,9 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -584,12 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10438">
           <caret line="614" column="20" lean-forward="false" selection-start-line="614" selection-start-column="20" selection-end-line="614" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#a#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#2;n#a#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -597,7 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10404">
           <caret line="612" column="66" lean-forward="false" selection-start-line="612" selection-start-column="62" selection-end-line="612" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7021">
           <caret line="413" column="56" lean-forward="false" selection-start-line="413" selection-start-column="56" selection-end-line="413" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -613,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="0" column="2025" lean-forward="false" selection-start-line="0" selection-start-column="2021" selection-end-line="0" selection-end-column="2025" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,7 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="192" column="9" lean-forward="true" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,7 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="726" column="48" lean-forward="false" selection-start-line="726" selection-start-column="27" selection-end-line="726" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -637,7 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1090">
           <caret line="558" column="48" lean-forward="false" selection-start-line="558" selection-start-column="27" selection-end-line="558" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,22 +687,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="189" column="59" lean-forward="true" selection-start-line="189" selection-start-column="59" selection-end-line="189" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../ShopOnl/ProductPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833">
+        <state relative-caret-position="1054">
           <caret line="62" column="42" lean-forward="false" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+>>>>>>> 2b72e1ba7c1c53e4c0c6a51be251ff79d645e5fa
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomePage2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="489" column="19" lean-forward="false" selection-start-line="489" selection-start-column="19" selection-end-line="489" selection-end-column="19" />
+<<<<<<< HEAD
+        <state relative-caret-position="153">
+          <caret line="521" column="18" lean-forward="false" selection-start-line="521" selection-start-column="18" selection-end-line="521" selection-end-column="18" />
+=======
+        <state relative-caret-position="-493">
+          <caret line="130" column="34" lean-forward="false" selection-start-line="130" selection-start-column="30" selection-end-line="130" selection-end-column="34" />
+>>>>>>> 2b72e1ba7c1c53e4c0c6a51be251ff79d645e5fa
           <folding>
             <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -686,10 +717,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Css/HomePage2.css">
+    <entry file="file://$PROJECT_DIR$/ProductPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="941" column="24" lean-forward="false" selection-start-line="941" selection-start-column="24" selection-end-line="941" selection-end-column="24" />
+<<<<<<< HEAD
+        <state relative-caret-position="99">
+          <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Product Information.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="31" column="56" lean-forward="false" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+=======
+        <state relative-caret-position="185">
+          <caret line="327" column="46" lean-forward="false" selection-start-line="327" selection-start-column="46" selection-end-line="327" selection-end-column="46" />
+>>>>>>> 2b72e1ba7c1c53e4c0c6a51be251ff79d645e5fa
           <folding />
         </state>
       </provider>
