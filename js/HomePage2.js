@@ -10,7 +10,7 @@ $('.message a').click(function(){
 /* Product Images*/
 
 /* giỏ hàng */
-<script>
+
 // Định nghĩa một mảng các phần tử sẽ bỏ vào giỏ hàng
 var shoppingCartItems = [];
 
@@ -94,4 +94,9 @@ function displayShoppingCartItems() {
         });
     }
 }
+
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+});
+$("#popover").popover({ trigger: "hover" });
 
