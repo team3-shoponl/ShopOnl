@@ -1,3 +1,10 @@
 [
- { "image":"image/maytinhbang.png","name":"Máy tính bảng", "info":"Thông số kỹ thuật","price":"Giá tiền: 99999$" }
+ { "image":"image/maytinhbang.png","name":"Máy tính bảng", "info":"Thông số kỹ thuật","price":"Giá tiền: 99999$" },
+ { "image":"image/maytinhbang.png","name":"Máy tính bảng", "info":"Thông số kỹ thuật","price":"Giá tiền: 99999$" },
+ { "image":"image/maytinhbang.png","name":"Máy tính bảng", "info":"Thông số kỹ thuật","price":"Giá tiền: 99999$" },
+ { "image":"image/dienthoai.png","name":"Điện thoại", "info":"Thông số kỹ thuật","price":"Giá tiền: 99999$" },
+ { "image":"image/dienthoai - Copy.png","name":"Máy tính bảng", "info":"Thông số kỹ thuật","price":"Giá tiền: 99999$" },
+ { "image":"image/maytinhbang.png","name":"Máy tính bảng", "info":"Thông số kỹ thuật","price":"Giá tiền: 99999$" },
+ { "image":"image/maytinhbang.png","name":"Máy tính bảng1", "info":"Thông số kỹ thuật","price":"Giá tiền: 99999$" }
+
 ]

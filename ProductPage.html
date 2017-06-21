@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="Css/demo.css">
     <link rel="stylesheet" href="Css/footer-distributed-with-address-and-phones.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/HomePage2.js"></script>
-    <script src="js/app.js"></script>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/HomePage2.js"></script>
 
 </head>
 <body>
@@ -172,28 +174,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-10">
-                    <figure class="hover-effect-1">
-                        <script src="js/app.js"></script>
-                        <ul ng-controller="TodoCtrl">
-                            <li ng-repeat="item in todos">
-                                <img src="{{item.image}}" alt="hover-effect-1" />
-                                <figcaption>
-                                    <h3>{{item.name}}<span>{{item.info}}<br>{{item.info}}<br>{{item.price}}</span></h3>
-                                </figcaption>
-
-                                <a href="Product%20Information.html" title="Header" data-toggle="popover" data-placement="top" data-content="Content" data-trigger="hover"></a>
-                            </li>
-                        </ul>
-                    </figure>
-                    <figure class="hover-effect-1">
-                        <img src="image/maytinhbang.png" alt="hover-effect-1" />
+                <div class="col-md-10" ng-controller="TodoCtrl">
+                    <figure class="hover-effect-1" ng-repeat="item in todos">
+                        <img src="{{item.image}}" alt="hover-effect-1" />
                         <figcaption>
-                            <h3>Máy tính bảng<span>Thông số kỹ thuật<br>Thông số kỹ thuật<br>Giá tiền: 9999999$</span></h3>
+                            <h3>{{item.name}}<span>{{item.info}}<br>{{item.info}}<br>{{item.price}}</span></h3>
                         </figcaption>
                         <a href="Product%20Information.html"></a>
                     </figure>
-                </div>
+               </div>
             </div>
         </div>
     </div>
