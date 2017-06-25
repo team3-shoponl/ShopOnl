@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../jquery/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Cài đặt icon vào thư mục gốc-->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="../Css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="../Css/icomoon.css">
+    <!-- Simple Line Icons -->
+    <link rel="stylesheet" href="../Css/simple-line-icons.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="../Css/magnific-popup.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="../Css/bootstrap.css">
+
+    <link rel="stylesheet" href="../Css/HomePage2.css">
+
+    <!-- Footer Css -->
+    <link rel="stylesheet" href="../Css/demo.css">
+
+    <link rel="stylesheet" href="../Css/footer-distributed-with-address-and-phones.css">
+
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+    <div class="sides">
+        <a href="#" class="logo"  ><button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">LOGIN</button></a>
+    </div>
+    <div class="sides"> <a href="#" class="menu"></a>
+    </div>
+    <div class="info">
+        <h4><a href="#">VuTruong DESIGN</a></h4>
+        <h1>Trang web bán hàng lớn số 1 Đôngtimo :v</h1>
+        <div class="meta"></div>
+    </div>
+</div>
+<!-- Navbar-->
+<!--<div class="container-fluid">-->
+<!--<div class="row">-->
+<!--<div class="col-md-12">-->
+<!--<div class="row">-->
+<!--<ul class="breadcrumb">-->
+<!--<li><a href="#">Sign in</a></li>-->
+<!--<li><a href="#">Sign up</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+<div class="container-fluid menu">
+    <div class="row">
+        <nav class="navbar navbar-inverse " data-spy="affix" data-offset-top="560">
+            <div class="container-fluid navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Logo</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <div class="container teal borderYtoX collapse navbar-collapse nav navbar-nav navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Contact</a></li>
+                            <li class="dropdown">
+                                <div class="dropdown">
+                                    <button class="dropbtn"><a>Product Catalog</a></button>
+                                    <div class="dropdown-content">
+                                        <a href="ProductPage.html">Đồ Văn Phòng</a>
+                                        <a href="ProductPage.html">Đồ Gia Dụng</a>
+                                        <a href="ProductPage.html">Đồ Thể Thao</a>
+                                        <a href="ProductPage.html">Đồ Điện Tử</a>
+                                        <a href="ProductPage.html">Làm Đẹp</a>
+
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content" style="color: black">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Đăng nhập</h4>
+            </div>
+            <div class="modal-body">
+                <div id="i1-ct">
+                    <a class="btn btn-success btn-lg" onclick="$('#lg-ct').show();$('#cr-ct').hide();$('#i1-ct').hide();$('#i2-ct').hide();">LOG IN</a>
+                </div>
+                <div id="lg-ct" style="display :none;">
+                    <a class="btn btn-success btn-lg" onclick="$('#lg-ct').hide();$('#cr-ct').hide();$('#i2-ct').show();$('#i1-ct').show();$('#form-id').trigger('reset');">Back</a>
+                    <form id="form-id">
+                        <div class="form-group">
+                            <label for="inputEmail">Email / Username</label>
+                            <input class="form-control" type="email" id="inputEmail" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword">Password</label>
+                            <input class="form-control" type="password" id="inputPassword" placeholder="Password">
+                            <a type="button" class="btn btn-link btn-sm">Forgot password</a>
+                        </div>
+                        <div class="form-group">
+                            <a type="button" class="btn btn-info btn-md">Log in</a>
+                        </div>
+                    </form>
+                </div>
+                <div id="i2-ct">
+                    <a class="btn btn-success btn-lg" onclick="$('#lg-ct').hide();$('#cr-ct').show();$('#i1-ct').hide();$('#i2-ct').hide();">Create Account</a>
+                </div>
+                <div id="cr-ct" style="display :none;">
+                    <a class="btn btn-success btn-lg" onclick="$('#lg-ct').hide();$('#cr-ct').hide();$('#i2-ct').show();$('#i1-ct').show();$('#form-id').trigger('reset');">Back</a>
+                    <form id="form-id2">
+                        <div class="form-group">
+                            <label for="inputEmail">gaugau</label>
+                            <input class="form-control" type="email" id="inputEmail2" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword">Password</label>
+                            <input class="form-control" type="password" id="inputPassword2" placeholder="Password">
+                            <a type="button" class="btn btn-link btn-sm">Forgot password</a>
+                        </div>
+                        <div class="form-group">
+                            <a type="button" class="btn btn-info btn-md">Log in</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
